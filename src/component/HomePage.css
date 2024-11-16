@@ -1,0 +1,176 @@
+/* src/component/Home.css */
+
+/* General styling */
+.home-container {
+    text-align: center;
+    padding: 50px;
+    color:aliceblue;
+    background-image: url('bg2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #2138d0;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    background-color: #13151b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    position: absolute;
+    right: -20px;
+    margin-top: -10px;
+  }
+  
+  .logout-btn:hover {
+    color: #2138d0;;
+  }
+  
+  /* Landing Section */
+  .landing {
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: #ff9900; */
+    color: white;
+    margin-top: -50px;
+  }
+  
+  .landing h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .landing p {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  /* Mobile Cards Section */
+.mobiles {
+    padding: 40px 20px;
+    /* background-color: #090808; */
+    text-align: center;
+  }
+  
+  .mobiles h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Flexbox for mobile cards */
+  .mobile-list {
+    display: flex;
+    justify-content: space-around; /* Space out the cards */
+    flex-wrap: wrap; /* Wrap the cards on smaller screens */
+    gap: 20px; /* Add spacing between cards */
+  }
+  
+  .mobile-card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px; /* Set fixed width for each card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .mobile-card img {
+    width: 100%;
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensure image covers the box without distortion */
+  }
+  
+  .mobile-card h3 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  
+  .mobile-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .mobile-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .mobile-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sellers Section */
+  .sellers {
+    padding: 40px 20px;
+    background-color: #030303;
+    text-align: center;
+  }
+  
+  .sellers h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .sellers ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sellers li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sellers span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
